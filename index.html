@@ -17,71 +17,91 @@
     
     <link href="https://fonts.googleapis.com/css?family=Parisienne|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 
-    <title>Hello, world!</title>
+    <title>thislifeisme</title>
   </head>
   <body>
    
-<hr>
+<hr id="hrtop">
       
 <div class="container">
 
     <!-- Nav bar -->
     <nav>
         <ul class="nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="aboutme.html">About me</a></li>
-            <li><a href="pictures.html">Pictures</a></li>
-            <li><a href="travelmap.html">Travel map</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a id="link" href="index.html">Home</a></li>
+            <li><a id="link" href="aboutme.html">About me</a></li>
+            <li><a id="link" href="pictures.html">Pictures</a></li>
+            <li><a id="link" href="travelmap.html">Travel map</a></li>
+            <li><a id="link" href="blog.html">Blog</a></li>
         </ul>
     </nav>
           
-    <!-- Header with h1 and picture -->
+    <!-- Header -->
     <div class="header">
         <h1>Thislifeisme</h1>
-        <h2> & this life is mine</h2>
-        
-        <img src="images/thislifeisme_header.jpg" alt="thislifeismeblog" width="1000px" hspace="20"> 
+        <h2 id="subtitle"> & this life is mine</h2>
+         <span id="floatright"><input id="myInput" type="text"> <button onclick="myFunction()">Search</button></span>
+    
+    </div>
+    
+     <!-- Header pic -->
+    <div id="headerpic">
+    <img src="images/thislifeisme_header.jpg" alt="thislifeismeblog" width="100%">
     </div>
 
     <!-- Column 1 Main content -->
     <div class="maincontent">
         <div class="row">
-            <div class="col-10">
+            <div class="col-9">
                 <h2>What is Lorem Ipsum?</h2>
+                <hr>
+                <p class="blogpostlink">Posted by <a class="postby"href="https://www.instagram.com/maariabs/" target="_top">Thislifeisme</a> in <a class="postby"href="https://www.instagram.com/maariabs/" target="_top">Travel</a></p>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                
             </div>
             
+            <div class="verticalLine"></div>
+            
         <!-- Column 2 Sidebar -->
-            <div class="col-2">
-                <nav>
+            <div class="col-2 col-2_overrides">
+               <nav>
                     <ul class="navside">
                         <li><p id="sidebar">Recent posts</p></li>
-                        <li><a href="index.html">Link to latest post</a></li>
+                        
+                        <li><a id="linkside" href="https://www.instagram.com/maariabs/" target="_top"><p id="sidebar">Some post name</p></a></li>
+                        
                         <li><p id="sidebar">Instagram feed</p></li>
+                        
+                     <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/03ea91bbeff4573fbea8ff2dd6cd45a4.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
                     
                     </ul>
                 </nav>
             
             </div>
         </div>
+            </div>
     </div>
     
-        
+</div>
+    
+<hr id="hrbottom">
+      
+<div class="container">
     
     
     <!-- Footer -->
     <div class="footer">
         <div class="row">
-            <div class="col-4">
+            <div class="col-sm">
                 <p id="footertext">thislifeisme // Maria Bonde Sørensen</p>
             </div>
             
-            <div class="col-4">
-                <p id="footertext">Intagram // <a href="https://www.instagram.com/maariabs/" target="_top">Instagram</a>
+            <div class="col-sm">
+                <p id="footertext">Intagram // <a href="https://www.instagram.com/maariabs/" target="_top">maariabs</a>
+                
             </div>
             
-            <div class="col-4">
+            <div class="col-sm">
                 <p id="footertext">E-mail // <a href="mailto:mariabondes@gmail.com"target="_top">mariabondes@gmail.com</a>
             </div>
         </div>
@@ -97,7 +117,8 @@
     <!-- Custom JavaScript -->
     <script src="script.js"></script>
     
+    
+
 </div>
-      
   </body>
 </html>
