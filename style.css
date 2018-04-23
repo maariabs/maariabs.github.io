@@ -5,32 +5,21 @@
 
 /* Navigation bar */
 .nav {
-    background-color:s #ffffff;
-    padding: 5px;
-    display: inline-block;
-    margin-bottom: 20px;
-    
+    background-color: #ffffff;
 }
 
 ul.nav {
     list-style: none;
-    padding: 10px;
-
 }
 ul.nav li{
     display: inline;
     font-family: 'Raleway';
-    padding: 20px;
     text-transform: uppercase;
     font-size: 10px;
     font-weight: 400;
- 
+    padding-left: 25px;
+    margin-top: 10px;
 }
-
-#link:link {
-    color: #898A8C;
-    text-decoration: none;   
-} 
 
 #link:visited {
     color: #898A8C;
@@ -48,6 +37,46 @@ ul.nav li{
     text-decoration: underline;
 } 
 
+/* Navigation bar - Categories */
+.topnav_cat {
+    background-color: #ffffff;
+    }
+
+ul.topnav_cat {
+    text-align: right;
+
+}
+ul.topnav_cat li{
+    display: inline;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    padding-left: 4px;
+    margin-top: 10px;
+}
+
+#cat:link {
+    color: #898A8C;
+    text-decoration: none;   
+} 
+
+#cat:visited {
+    color: #898A8C;
+    text-decoration: none;
+}
+
+#cat:hover {
+    color: #ff1b6b;
+    text-decoration: underline;
+}
+    
+#cat:active {
+    color: #ff1b6b;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
 /* Header */
 .header {
     background-color: #ffffff;
@@ -55,11 +84,13 @@ ul.nav li{
     margin: 0px;
 }
 
-#floatright {
-    float: right;
-    position: relative;
-    margin-top: -80px;
-}
+#searchbar {
+    position: absolute;
+    bottom: 25px;
+    right: 15px;
+    
+    }
+
 
 #headerpic {
     margin-bottom: 20px;
