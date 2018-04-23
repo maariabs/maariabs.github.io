@@ -88,7 +88,7 @@ ul.topnav_cat li{
     position: absolute;
     bottom: 25px;
     right: 15px;
-    
+    font-family: 'Raleway', sans-serif;
     }
 
 
@@ -97,12 +97,26 @@ ul.topnav_cat li{
 }
 
 h1 {
+    font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 500;
+}
+
+#headertext {
     font-family: 'Raleway', sans-serif;
 	font-size: 60px;
 	font-style: normal;
 	font-weight: 100;
 	line-height: 50px;
     margin-top: 10px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
 }
 
 #subtitle {
@@ -115,15 +129,11 @@ h1 {
     text-decoration: none;
 }
 
-h2 {
-    font-family: 'Roboto', sans-serif;
-	font-size: 18px;
-	font-style: normal;
-	font-weight: 400;
-    
+#myInput {
+    font-family: 'Raleway', sans-serif;
 }
 
-hr {
+#lineunderh1 {
     border-top: 1px solid #D9D9D7;
     margin: 0px;
     width: 100%;
@@ -172,52 +182,81 @@ p {
     text-decoration: underline;
  }
 
+.picturewrapleft {
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px; 
+ }
 
-nav ul { list-style-type: none; 
-}
+.picturepost {
+    display: inline-block;
+    margin: 20px; 
+ }
 
- Navigation bar 
-.col-1_overrides {
-    border: 1px solid black;
-}
+.picturecenter {
+    text-align: center;
+ }
 
-.col-4_overrides {
-    border: 1px solid black;
-    
+#hrbetweenpost {
+    border: 1px solid #000000;
+    margin-bottom: 30px;
 }
 
 .verticalLine {
     border-left: 1px solid #D9D9D7;
 }
 
-.col-2_overrides {
-    position: inherit;
-    margin-left: 30 px;
-    box-sizing: content-box;
+ul.navside { 
+    list-style-type: none;
     padding: 0px;
-    
+    margin: 0px;
 }
-
-/* Text inside col-2 */
-#sidebar {
+    
+/* Text inside col-3 */
+ul.navside li {
     font-family: 'Raleway', sans-serif;
     font-size: 12px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     color: #919294;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     text-decoration: none;
 }
 
-/* Line before footer */
-#hrbottom {
-    border-top: 3px solid #D9D9D7;
-    margin: 0px
-    }
-
-/* Footer */
-.footer {
-    margin-top: 20px;
+/* Text inside col-3 - Links */
+ul.navsidedot li { 
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
 }
 
+#linkside:link {
+    color: #2F28F2;
+    text-decoration: none;   
+} 
+
+#linkside:visited {
+    color: #2F28F2;
+    text-decoration: none;
+}
+
+#linkside:hover {
+    color: #ff1b6b;
+    text-decoration: underline;
+}
+    
+#linkside:active {
+    color: #ff1b6b;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+/* Footer */
+.containerfooter {
+    background-color: lightgray;
+}
