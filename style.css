@@ -136,7 +136,7 @@ p {
     text-decoration: underline;
  }
 
-
+/*
 .maincontent {
     margin-left: 0px;
     margin-right: 0px;
@@ -145,7 +145,13 @@ p {
 nav ul { list-style-type: none; 
 }
 
-.col-9 {
+ Navigation bar 
+.col-1_overrides {
+    border: 1px solid black;
+}
+
+.col-4_overrides {
+    border: 1px solid black;
     
 }
 
@@ -160,7 +166,7 @@ nav ul { list-style-type: none;
     box-sizing: content-box;
     padding: 0px;
     
-}
+} */
 
 /* Text inside col-2 */
 #sidebar {
