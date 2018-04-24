@@ -14,19 +14,4 @@ var commentspace = document.getElementById("commentspace").value;
 emptydiv.innerHTML = namespace + commentspace;
 
 }
- 
-// var libButton = document.getElementById('lib-button');
-//lipButton.addEventListener('click',libIt);
-    
-    //    function libIt() {
-    //      var storyDiv = document.getElementById("story");
-    //      var person = document.getElementById("person").value;
-    //      var adjective = document.getElementById("adjective").value;
-    //      var noun = document.getElementById("noun").value;
-    //      storyDiv.innerHTML = person + " married a " + adjective + " " + noun + "... So weird!";
-    //}
 
-// function submit 
-
-
-    

@@ -151,6 +151,7 @@ p {
 #datetext {
     font-family: 'Parisienne', cursive;
     font-size: 24px;
+    text-align: center;
     }
 
 .blogpostlink {
@@ -270,7 +271,7 @@ ul.navsidedot li {
 
 .commentspace {
     display: block;
-    width: 800px;
+    width: 100%;
 }
 
 
@@ -327,3 +328,4 @@ ul.countrylist li {
 .containerfooter {
     background-color: lightgray;
 }
+
