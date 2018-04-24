@@ -256,6 +256,73 @@ ul.navsidedot li {
     text-decoration: underline;
 }
 
+/* Blog comments */
+
+.commentform {
+    font-family: 'Raleway', sans-serif; 
+    font-size: 12px;
+    display: block;
+}
+
+.namespace {
+    display: block;
+}
+
+.commentspace {
+    display: block;
+    width: 800px;
+}
+
+
+<div id="commentform">
+    <form id="commentform"><input id="namespace" type="text"name="name" placeholder="Your name"><textarea id="commentspace" name="message" placeholder="Your comment"></textarea><button onclick="follow()">Submit</button>
+        </form>
+    </div>
+
+/* Contact form */
+#contactform {
+    text-align: center;
+    align-content: center;
+    font-family: 'Raleway', sans-serif;
+    
+}
+#contactformstyle {
+    width:300px;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+#contactformid {
+    text-align: center;
+    align-content: center;
+}
+
+#contactsend {
+    position: absolute;
+    margin-left: 98px;
+}
+
+/* Travel map */
+.h2country {
+    font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+    text-decoration: underline;
+    text-align: center;
+}
+
+ul.countrylist li {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.maps{
+    margin-bottom: 20px;
+}
+
 /* Footer */
 .containerfooter {
     background-color: lightgray;

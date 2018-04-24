@@ -42,9 +42,9 @@
     <div class="col">
          <nav>
             <ul class="topnav_cat">
-            <li><a id="cat" href="travelmap.html">New York</a></li>
-            <li><a id="cat" href="aboutme.html">Travel</a></li>
-            <li><a id="cat" href="contact.html">Food</a></li>
+            <li><a id="cat" href="cat_newyork.html">New York</a></li>
+            <li><a id="cat" href="cat_travel.html">Travel</a></li>
+            <li><a id="cat" href="cat_food.html">Food</a></li>
         </ul>
         </nav>
         </div>
@@ -58,7 +58,7 @@
     <div class="col-8">
     <div class="header">
         <h1 id="headertext">Contact</h1>
-        <h2 id="subtitle"> & write whatever you like</h2>
+        <h2 id="subtitle"> Write me</h2>
         
         </div>
         </div>
@@ -84,9 +84,10 @@
         <h1>Questions, comments etc.</h1>
         
         <p>If you have any questions or comments feel free to use the form to reach out to me</p>
-        
-    <form method="POST" action="https://formspree.io/mariabondes@gmail.com"><input type="email" name="email" placeholder="Your email"><textarea name="message" placeholder="Your message"></textarea><button type="submit">Send</button>
-</form>
+    <div id="contactform">
+    <form id="contactformid" method="POST" action="https://formspree.io/mariabondes@gmail.com"><input id="contactformstyle" type="email" name="email" placeholder="Your email"><textarea id="contactformstyle" name="message" placeholder="Your message"></textarea><button id="contactsend" type="submit">Send</button></form>
+        </div>
+ 
         
 </div>
         
@@ -116,7 +117,7 @@
                        <br>
                        
                        <li>Enter your e-mail to follow blog:</li>
-                       <li><div id="follow"><input id="myInput" type="text"><button onclick="myFunction()">Follow</button>
+                       <li><div id="follow"><input id="myInput" type="text"><button onclick="follow()">Follow</button>
         </div></li>
                        
                    </ul>  
